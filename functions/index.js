@@ -11,13 +11,7 @@
 const { initializeApp, getAnalytics } = require('firebase/app');
 
 const firebaseConfig = {
-    apiKey: "AIzaSyAz_MvwmM_DyQyRm5ZtKTBdrA1p_S8qAmA",
-    authDomain: "matsuvideo-e23d8.firebaseapp.com",
-    projectId: "matsuvideo-e23d8",
-    storageBucket: "matsuvideo-e23d8.appspot.com",
-    messagingSenderId: "830254770157",
-    appId: "1:830254770157:web:fb37477a7e3ab70cb3e9e4",
-    measurementId: "G-3ENXLRJ4D8"
+    
   };
 
 const app = initializeApp(firebaseConfig);

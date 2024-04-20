@@ -5,8 +5,8 @@ import 'package:http/http.dart' as http;
 
 class Api{
 
-  final nowPlayingApiUrl = "https://api.themoviedb.org/3/movie/now_playing?api_key=e3330843b55bf27874a3a58513eba7f6";
-  final upComingApiUrl = "https://api.themoviedb.org/3/movie/upcoming?api_key=e3330843b55bf27874a3a58513eba7f6";
+  final nowPlayingApiUrl = "https://api.themoviedb.org/3/movie/now_playing?api_key=";
+  final upComingApiUrl = "https://api.themoviedb.org/3/movie/upcoming?api_key=";
   
 
   Future<List<Movie>> getNowPlayingMovies() async{

@@ -9,10 +9,7 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
   options: FirebaseOptions(
-    apiKey: 'AIzaSyAz_MvwmM_DyQyRm5ZtKTBdrA1p_S8qAmA',
-    appId: '1:830254770157:web:fb37477a7e3ab70cb3e9e4',
-    messagingSenderId: '830254770157',
-    projectId: 'matsuvideo-e23d8',
+    
 
   ),
 );
